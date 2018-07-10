@@ -258,6 +258,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\Grafik.cshtml" />
+    <Content Include="Views\Home\Cennik.cshtml" />
+    <Content Include="Views\Home\Kalkulatory.cshtml" />
+    <Content Include="Views\Home\Edukacja.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
