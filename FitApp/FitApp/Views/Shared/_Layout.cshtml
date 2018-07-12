@@ -31,6 +31,16 @@
                     <li>@Html.ActionLink("Edukacja", "Edukacja", "Home")</li>
                     <li>@Html.ActionLink("O nas", "About", "Home")</li>
                     <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Panel Administracyjny
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Dodaj lub edytuj zajęcia</a>
+                            <a class="dropdown-item" href="#">Zarządzaj grafikiem</a>
+                            <a class="dropdown-item" href="#">Zarządzaj kontami klientów</a>
+                        </div>
+                    </li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
