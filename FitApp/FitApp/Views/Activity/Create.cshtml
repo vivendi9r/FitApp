@@ -1,0 +1,15 @@
+﻿@model FitApp.Models.Activity
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<div>
+    @using (Html.BeginForm("Create", "Activity"))
+    {
+        @Html.EditorFor(m => m)
+        <input type="submit" value="Dodaj" />
+    }
+</div>
