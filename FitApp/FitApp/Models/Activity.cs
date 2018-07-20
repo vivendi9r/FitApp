@@ -14,5 +14,8 @@ namespace FitApp.Models
         public int RoomID { get; set; }
         public int CoachID { get; set; }
 
+        public Coachs Coachs { get; set; }
+        public Rooms Rooms { get; set; }
+
     }
 }

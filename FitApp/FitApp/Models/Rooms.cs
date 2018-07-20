@@ -9,5 +9,8 @@ namespace FitApp.Models
     {
         public int RoomID { get; set; }
         public string name { get; set; }
+
+        public ICollection<Activity> Activity { get; set; }
+
     }
 }
