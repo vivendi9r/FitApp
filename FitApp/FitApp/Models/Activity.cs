@@ -7,12 +7,12 @@ namespace FitApp.Models
 {
     public class Activity
     {
-        public int Id { get; set; }
+        public int ActivityID { get; set; }
         public string Name { get; set; }
         public DateTime Start_time { get; set; }
         public DateTime End_time { get; set; }
-        public string Room { get; set; }
-        public string Coach { get; set; }
-        public List<string> Clients_list { get; set; }
+        public int RoomID { get; set; }
+        public int CoachID { get; set; }
+
     }
 }

@@ -134,3 +134,6 @@ C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fit
 C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.csproj.CoreCompileInputs.cache
 C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.dll
 C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.pdb
+C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.Migrations.InitialCreate.resources
+C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.csproj.GenerateResource.Cache
+C:\Users\viven\Desktop\Aplikacja internetowa wspomagająca prowadzenie klubu fitness\FitApp\FitApp\FitApp\obj\Debug\FitApp.Migrations.Activitydesign.resources
