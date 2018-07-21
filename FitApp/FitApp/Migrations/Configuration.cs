@@ -5,7 +5,7 @@ namespace FitApp.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FitApp.DataAccessLayer.ActivityContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FitApp.DataAccessLayer.GymContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace FitApp.Migrations
             ContextKey = "FitApp.DataAccessLayer.ActivityContext";
         }
 
-        protected override void Seed(FitApp.DataAccessLayer.ActivityContext context)
+        protected override void Seed(FitApp.DataAccessLayer.GymContext context)
         {
             //  This method will be called after migrating to the latest version.
 

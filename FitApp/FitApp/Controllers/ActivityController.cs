@@ -30,7 +30,7 @@ namespace FitApp.Controllers
             }
             else
             {
-                ActivityContext db = new ActivityContext();
+                GymContext db = new GymContext();
                 db.Activities.Add(activity);
                 db.SaveChanges();
 
