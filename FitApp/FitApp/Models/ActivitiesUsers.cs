@@ -7,7 +7,7 @@ namespace FitApp.Models
 {
     public class ActivitiesUsers
     {
-        public int ActivityID { get; set; }
-        public int UserID { get; set; }
+        public int ActivityId { get; set; }
+        public int UserId { get; set; }
     }
 }

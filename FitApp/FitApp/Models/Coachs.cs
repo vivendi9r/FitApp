@@ -7,8 +7,8 @@ namespace FitApp.Models
 {
     public class Coachs
     {
-        public int CoachID { get; set; }
-        public int UserID { get; set; } //Trzeba zmienic nazwe 'Id' na 'UserID' i typ na 'int' w klasie uzytkownika
+        public int CoachId { get; set; }
+        public int UserId { get; set; } 
 
         public ICollection<Activity> Activity { get; set; }
     }
