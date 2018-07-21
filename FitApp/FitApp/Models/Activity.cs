@@ -7,6 +7,11 @@ namespace FitApp.Models
 {
     public class Activity
     {
+        public Activity()
+        {
+            this.Users = new HashSet<ApplicationUser>();
+        }
+
         public int ActivityId { get; set; }
         public string Name { get; set; }
         public DateTime Start_time { get; set; }
@@ -17,5 +22,6 @@ namespace FitApp.Models
         public Coachs Coachs { get; set; }
         public Rooms Rooms { get; set; }
 
+        public virtual ICollection<ApplicationUser> Users { get; set; }
     }
 }
