@@ -32,7 +32,12 @@ namespace FitApp.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
+        /*
+        public DbSet<Activity> Activities { get; set; }
+        public DbSet<Coachs> Coachs { get; set; }
+        public DbSet<Rooms> Rooms { get; set; }
+        public DbSet<ActivitiesUsers> ActivitiesUsers { get; set; }
+        */
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
